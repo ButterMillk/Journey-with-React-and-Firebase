@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.navigationWrapper{
+  box-sizing: border-box;
+  width: 100vw;
+  background-image: url(./img/background.jpg);
+  height: 150px;
+  opacity: 0.9 black;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-position: center;
+
+}
+
+h1 {
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+
+h1:hover{
+  text-shadow: 4px 4px 6px white;
+}
+
+
+@media (max-width: 480px) { 
+  
+}
+
+
+@media (max-width: 767px) { 
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+  
+}
+
+
+@media (min-width: 1200px) { 
+  
+}
+
+
+
+
+

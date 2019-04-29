@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+.journeyWrapper{
+    width: 100vw;
+    
+}
+.journeyWrapper__button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.journeyWrapper__button:hover{
+    background-color: green;
+    transition: 1s;
+}
+
+.innerWrapper{
+    width: 100vw;
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    
+}

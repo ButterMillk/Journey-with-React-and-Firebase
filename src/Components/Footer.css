@@ -1,0 +1,12 @@
+.footer{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a{
+    color: white;
+}
