@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-
-
 class NewJourney extends Component{
 
     constructor(props){
@@ -44,7 +42,6 @@ class NewJourney extends Component{
         this.setState({ newCost: event.target.value});
     }
 
-    
     newJourney() {
         console.log("Co ma w sobie this: " + this.props.addNewJourney);
         this.props.addNewJourney( 

@@ -53,7 +53,7 @@ class Journey extends Component{
         });
 
         this.database.on('child_removed', snap => {
-            for(var i=0; i<previousJourneys.length; i++){
+            for(var i=0 ; i<previousJourneys.length ; i++){
                 if(previousJourneys[i].id === snap.key){
                     previousJourneys.splice(i, 1);
                 }
@@ -92,14 +92,13 @@ class Journey extends Component{
     }
 
     editJourney(){
-        alert("Kierowniku pracujemy nad tym");
+        alert("In developing");
     }
 
     render(){
         return(
             <div className="journeyWrapper">
-            <hr />
-            
+            <hr /> 
             <button className="journeyWrapper__button" onClick={this.changeAddNewJourney}> {this.state.textButton}</button>
             <hr />
             {this.state.addNewJourney ? <div className="innerWrapper">
@@ -157,7 +156,6 @@ class Journey extends Component{
                 </div> :
             <NewJourney addNewJourney={this.addNewJourney} /> }
             
-            
             <JourneyDetails isOpen={this.state.isOpen} 
                             onClose={(event) => this.setState({ isOpen: false})}
                             place={this.state.toDetailPlace}
@@ -182,7 +180,5 @@ class Journey extends Component{
         );
     }
 }
-
-
 
 export default Journey;

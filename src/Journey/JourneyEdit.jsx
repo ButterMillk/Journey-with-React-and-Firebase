@@ -7,22 +7,6 @@ class JourneyDetails extends Component{
 
     let details = (
     
- 
-        // updateJourney: (id, data) => {
-        //     let ref = firebaseDb.ref('Journey');
-        //     return ref
-        //       .child(id)
-        //       .update(data)
-        //       .then(() => ref.once('value'))
-        //       .then(snapshot => snapshot.val())
-        //       .catch(error => ({
-        //         errorCode: error.code,
-        //         errorMessage: error.message
-        //       }));
-        //   }
-    
-       
-
         <div className="journeyDetailsStyles">
             <button className="journeyDetails_buttonStyles"
                     onClick={this.props.onClose}>Zamknij</button>
@@ -33,7 +17,8 @@ class JourneyDetails extends Component{
             <p>Koszt: <input type="text" value={this.props.cost} /></p>
             <p>Kierowniku pracujemy nad tą funkcją</p>
             <button>Zmień</button>
-        </div>);
+        </div>
+        );
 
         if (!this.props.isOpen) {
             details = null;
